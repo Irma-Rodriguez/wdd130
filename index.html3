@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manuela Alejandra Rodríguez Cárdenas | WDD 130</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="wwr">Rafting Website</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Manuela Alejandra Rodríguez Cárdenas | WDD 130</h1>
+
+        <p>Hi, my name is Manuela Alejandra Rodríguez Cárdenas. I'm from Santander, Colombia, and I really enjoy
+            painting and
+            drawing in my free time. I'm currently studying Web and Computer Programming at BYU Pathway. I'm very happy
+            to be able
+            to learn about web design. I'm very excited about what I'm going to learn, how I can apply it, and how this
+            will help me
+            in the future. </p>
+        <img src="images/profile.jpg" alt="Hi, my name is Manuela Alejandra Rodríguez Cárdenas" width="200">
+    </main>
+    <footer>
+        <p>©2025 🦑 Manuela Alejandra Rodríguez Cárdenas 🦑 Santander, Colombia</p>
+    </footer>
+</body>
+
+</html>
