@@ -1,8 +1,8 @@
 :root {
     --primary-color: #5f99aa;
     --secondary-color: #f4a261;
-    --accent1-color: #264653; /* dark slate blue */
-    --accent2-color: #e9c46a; /* light golden yellow */
+    --accent1-color: #264653;
+    --accent2-color: #e9c46a; 
 }
 
 header {
