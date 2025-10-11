@@ -235,7 +235,7 @@ footer {
 .contact-form form {
     display: grid;
     grid-template-columns: 160px 1fr;
-    gap: 15px 20px;
+    gap: 15px 0px;
     align-items: start;
 }
 
@@ -249,7 +249,7 @@ footer {
 .contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea  {
     width: 100%;
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid #2b2626;
     border-radius: 6px;
 }
 
