@@ -1,7 +1,7 @@
 :root {
     --primary-color: #07485c;
     --secondary-color: #f4a261;
-    --accent1-color: #1e343d;
+    --accent1-color: #162329;
     --accent2-color: #e9c46a; 
 }
 
@@ -125,16 +125,17 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #fff;
 }
 
 .about-title {
-    position: absolute
+    color: #fff;
+    background-color: var(--accent1-color);
+    position: absolute;
 }
 
 .contact-title {
-    position: static
+    position: static;
+    color: black;
 }
 
 article {
@@ -187,12 +188,20 @@ footer {
 
 .company-info {
     text-align: center;
-    margin: 20px auto;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.company-info h1 {
+    font-size: 1.5em;
+    margin-bottom: 0px;
+    line-height: 1;
 }
 
 .company-info p {
-    margin: 2px 0;
-    line-height: 1.2;
+    margin: 0;
+    padding: 1px;
+    line-height: 1;
 }
 
 .contact-map iframe {
@@ -225,13 +234,15 @@ footer {
 
 .contact-form form {
     display: grid;
-    grid-template-columns: 150px 1fr;
+    grid-template-columns: 160px 1fr;
     gap: 15px 20px;
-    align-items: center;
+    align-items: start;
 }
 
 .contact-form label {
-    text-align: right;
+    display: block;
+    text-align: left;
+    padding-right: 12px;
     font-weight: bold;
 }
 
@@ -244,7 +255,7 @@ footer {
 
 .contact-form .message-purpose-label {
     grid-column: 1 / 2;
-    align-self: start;
+    align-self: center;
 }
 
 .contact-form .message-purpose-option {
@@ -252,6 +263,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    align-items: flex-start;
 }
 
 .contact-form .message-purpose-option label {
@@ -260,8 +272,9 @@ footer {
 }
 
 .contact-form .message-label {
-    grid-column: 1 / -1;
-    text-align: left;
+    grid-column: 1 / 2;
+    align-self: center;
+    padding: 6px 8px;
 }
 
 .contact-form textarea {
